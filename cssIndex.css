@@ -1,0 +1,67 @@
+/* Change all font to sans-serif. */
+body{
+  font-family: sans-serif;
+  /* Give your page a background color. Then, make it a gradient */
+  background-image: linear-gradient(#748283, #59aeb6, #08bade);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+h1{
+  /* Change the font of the name header. Bonus points for importing a font from google fonts. */
+  font-family: 'Open Sans',serif;
+  /* h1 should have a 25px font size  */
+  font-size: 25px;
+  /* Change the font color of your name to your favorite color. */
+  color: #10F4F4
+}
+h2,h3,h4,h5,h6{
+  /* all other h tags to have a 20px font size. */
+    font-size:20px;
+}
+
+h3{
+  /* Underline all h3's. */
+  text-decoration: underline;
+}
+
+ul{
+  /* Remove the bullet points from your unordered list of links. */
+  list-style-type: none;
+  /* Center all li items on the page. */
+}
+
+ol{
+  /* Change the font weight in your ordered list. */
+  font-weight: bolder;
+  list-style-position: inside;
+
+}
+
+ul,ol{
+  /* Center all li items on the page. */
+  text-align: center;
+  /* Give your li's a 1px red boarder with curved corners. */
+  border: 1px solid red;
+  border-radius: 15px;
+  /* Lists should have 30px of padding on the left. */
+  padding-left: 30px;
+  /* Change the font color of your li's to blue and the background color to a light pink. */
+  background-color: lightpink;
+  color:blue;
+}
+
+img{
+  /* Change the size of the picture to a reasonable size and center it on the page. */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  /* All images should be 200 pixels tall. */
+  height: 200px;
+}
+
+p{
+  /* All p tags should have 20 pixels of padding on the top and the bottom - not on the sides. */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
