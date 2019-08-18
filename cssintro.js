@@ -3,9 +3,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     resetButton.addEventListener("click", () => {
     let css = document.querySelector("#cssStyle")
-    if(css.href = "cssintro.css") {
+    console.log(css.href)
+    if(css.href.endsWith("cssintro.css")) {
     cssStyle.setAttribute("href", "cssreplace.css")
-  } else if(css.getAttribute('href').value = "cssreplace.css"){
+  } else if(css.href.endsWith("cssreplace.css")){
       cssStyle.setAttribute("href", "cssintro.css")
     }
 })
