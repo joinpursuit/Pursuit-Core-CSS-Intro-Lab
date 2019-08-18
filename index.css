@@ -1,0 +1,44 @@
+h1{
+  font-family: "Sofia";
+  color:crimson;
+  font-size: 25px;
+}
+h2,h3,h4,h5{
+  font-size:20px;
+}
+ul{
+  list-style-type: none;
+  padding-left: 30px;
+}
+ol{
+  font-weight: 900;
+  padding-left: 30px;
+}
+li{
+  text-align: center;
+  border:1px solid red;
+  border-radius:50px;
+  color:blue;
+  background-color: pink;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:200px;
+  width:200px;
+}
+body{
+  font-family: sans-serif;
+  background-image: linear-gradient(to bottom, aquamarine, green);
+
+}
+
+h3{
+  text-decoration: underline;
+}
+
+p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
