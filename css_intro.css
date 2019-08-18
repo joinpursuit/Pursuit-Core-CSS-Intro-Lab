@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Peta&display=swap');
+h1 {
+    font-family: Lexend Peta;
+    color: red;
+    font-size: 25px;
+}
+
+.link {
+    list-style-type: none;
+    text-align: center;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+ol {
+    font-weight: bold;
+    text-align: center;
+    list-style-position: inside;
+    padding-left: 30px;
+}
+
+li {
+    text-align: center;
+    list-style-position: inside;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: blue;
+    background: rgb(249, 219, 223);
+}
+
+h3 {
+    text-align: left;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: auto;
+}
+
+body {
+    font-family: sans-serif;
+    background: green;
+    background: linear-gradient(0deg, rgb(255, 53, 87) 0%, rgb(0, 0, 201) 100%)
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.styleSwap {
+    padding-bottom: 75px;
+    padding-top: 20px;
+}
