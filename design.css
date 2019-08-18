@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+/* Joseph P. Pasaoa
+*/
+
+
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: rgb(216, 183, 0);
+  font-size: 25px;
+  font-family: "Permanent Marker";
+}
+
+h2, h3, h4, h5, h6 {
+  font-size: 20px;
+}
+
+p {
+  padding: 20px 0;
+}
+
+ul, ol {
+  padding-inline-start: 30px;
+  padding-inline-end: 30px; /* ref: q5, to center li's */
+}
+
+ul {
+  list-style: none;
+}
+
+ol {
+  font-weight: bold;
+  list-style: upper-roman;
+}
+
+li {
+  text-align: center;
+  color: #00f;
+  background-color: lightpink;
+  border: 1px solid #f00;
+  border-radius: 6px;
+}
+
+img#portrait {
+  display: block;
+  height: 200px;
+  width: 190px;
+  margin: 0 auto;
+}
