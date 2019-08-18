@@ -66,13 +66,13 @@
         let stylesLink = document.querySelector("#stylesLink")
         let oldLink = "css_intro_lab_css.css"
         let newLink = "blank_css.css"
-          stylesLink.setAttribute('href', newLink)
-         // if ((stylesLink.href).value === oldLink) {
-         //   stylesLink.setAttribute('href', newLink)
-         // } else {
-         //   stylesLink.setAttribute('href', oldLink)
-         // }
-
+        let currentLink = stylesLink.getAttribute('href')
+    //      stylesLink.setAttribute('href', newLink)
+          if (currentLink === oldLink) {
+           stylesLink.setAttribute('href', newLink)
+         } else {
+           stylesLink.setAttribute('href', oldLink)
+         }
         }
       </script>
   </body>
