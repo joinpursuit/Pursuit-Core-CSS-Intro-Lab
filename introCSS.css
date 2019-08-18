@@ -1,0 +1,50 @@
+  h1 {
+    font-family: 'Lexend Tera', sans-serif;
+    color : green;
+    font-size: 25px;
+  }
+
+  h2, h3{
+    font-size: :20px
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 30px;
+  }
+
+  ol {
+    font-weight:700;
+    padding-left: 30px;
+
+  }
+
+li {
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 25px;
+  color: blue;
+  background-color: pink;
+}
+
+img{
+  width: 300px;
+  height: 200px;
+}
+.img {
+    text-align: center;
+}
+
+body{
+  font-family: sans-serif;
+  background: linear-gradient(90deg, red, blue, purple, yellow, green, orange, pink, cyan, turquoise)
+}
+
+h3{
+  text-decoration: underline;
+}
+
+p {
+  padding-top: 20px;
+  padding-bottom: :20px;
+}
