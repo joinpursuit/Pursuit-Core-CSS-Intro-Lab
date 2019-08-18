@@ -58,11 +58,21 @@
     <form action="index.html" method="post">
       <input type="text" name="" value="">
       <input type="submit" name="sumbit" value="submit"><br><br>
-      <input type="reset" name="reset" value = "reset" >
+      <input type="reset" name="reset" value = "reset" onclick = 'sheetLink()' >
 
       <script>
-    
+    const sheetLink = () =>{
+      let stylesheet = document.querySelector('#stylesheet')
+      let secondStylesheet = document.querySelector('#stylesheet-alternate')
+      if (stylesheet){
+        stylesheet.setAttribute('href', 'css_lab2.css')
+      } else{
+        secondStylesheet.setAttribute('href', 'css_lab.css')
+      }
+
+    }
         </script>
+
     </form>
   </body>
 </html>
