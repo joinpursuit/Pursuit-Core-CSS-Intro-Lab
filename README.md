@@ -11,6 +11,7 @@ Use the HTML below for the following questions:
   <head>
     <meta charset="utf-8">
     <title>CSS Intro</title>
+    <link rel="stylesheet" href="./index.css">
   </head>
   <body>
 
