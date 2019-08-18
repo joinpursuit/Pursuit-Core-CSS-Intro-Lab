@@ -1,0 +1,39 @@
+html {
+    font-family: sans-serif;
+    background: rgb(133,130,191);
+    background: linear-gradient(0deg, rgba(133,130,191,1) 0%, 
+    rgba(182,182,218,0.8696808510638298) 48%, rgba(0,212,255,1) 100%);
+}
+h1 {
+    font-family: 'Concert One', cursive;
+    color: rgba(17, 243, 104, 0.877);
+    font-size: 25px;
+}
+ul {
+    list-style-type: none;
+}
+ol {
+    font-weight: 900;
+}
+li {
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: blue;
+    background: lightpink;
+    padding-left: 30px;
+}
+img {
+    display: block;
+    margin: auto;
+    height: 200px;
+}
+h3 {
+    text-decoration: underline;
+}
+p {
+    padding: 20px 0;
+}
+h2 {
+    font-size: 20px;
+}
