@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+
+body {
+    font-family: 'Sans-Serif',serif;
+    /* background: powderblue; */
+    background: rgb(165,37,172);
+    background: radial-gradient(circle, rgba(165,37,172,1) 0%, rgba(223,88,7,0.6741071428571428) 100%);
+}
+
+h1 {
+   font-family: 'Tangerine',serif;
+   /* font-size: 25px; This font size makes me wanna cry. Im going to make it bigger*/
+   font-size: 100px;
+   text-align: center;
+   color: blue;
+}
+
+h3 {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+h2, h4, h5, h6 {
+    font-size: 20px;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ol {
+    font-weight: 900;
+}
+
+li {
+    text-align: center;
+    border: 1px groove red;
+    border-radius: 25px;
+    color: blue;
+    background-color: pink;
+    padding-left: 30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+  }
+
+  img {
+      height: 200px;
+  }
+
+  button {
+      border: 1px groove red;
+      color: purple;
+      background-color: rgb(134, 123, 145);
+      border-radius: 25px;
+      font-weight: 900;
+  }
