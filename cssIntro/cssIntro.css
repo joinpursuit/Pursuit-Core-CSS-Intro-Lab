@@ -1,5 +1,5 @@
 
-body, ul, li {
+body, ul {
   /* background-color: #d9f2f2; */
   /* background: rgb(2,0,36); */
   /* background: rgb(220,207,236); */
@@ -26,6 +26,10 @@ li {
   border: 1px
   border-radius: 50px;
   /* color: blue; */
+  color: darkblue;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 14px;
+  text-align: center;
 }
 
 p {
@@ -56,6 +60,12 @@ ul {
   font-size: 25px;
 }
 
+#reset {
+  color: #25a7da;
+  padding: 15px 15px 15px 15px;
+}
+
 #submitHere {
+  color: #25a7da
   font-family: 'Varela', sans-serif;
 }
