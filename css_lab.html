@@ -4,7 +4,7 @@
     <title>CSS Intro</title>
     <link href = "css_lab.css" rel ='stylesheet' id = 'stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
-    <link href="css_lab2.css" rel = "stylesheet alternate" id = 'stylesheet-alternate'>
+    <!-- <link href="css_lab2.css" rel = "stylesheet alternate" id = 'stylesheet-alternate'> -->
   </head>
   <body>
 
@@ -58,21 +58,25 @@
     <form action="index.html" method="post">
       <input type="text" name="" value="">
       <input type="submit" name="sumbit" value="submit"><br><br>
-      <input type="reset" name="reset" value = "reset" onclick = 'sheetLink()' >
 
-      <script>
-    const sheetLink = () =>{
-      let stylesheet = document.querySelector('#stylesheet')
-      let secondStylesheet = document.querySelector('#stylesheet-alternate')
-      if (stylesheet){
-        stylesheet.setAttribute('href', 'css_lab2.css')
-      } else{
-        secondStylesheet.setAttribute('href', 'css_lab.css')
-      }
-
-    }
-        </script>
 
     </form>
+
+    <button id = 'reset' onclick ="resetPage()">Reset</button>
+    <script>
+      const resetPage = () =>{
+        let originalLink = document.querySelector('#stylesheet');
+        let oldLink = 'css_lab.css'
+        let newLink = 'css_lab2.css'
+        let currentLink = originalLink.getAttribute('href')
+        if(currentLink === oldLink){
+          originalLink.setAttribute('href', newLink)
+        } else{
+          originalLink.setAttribute('href', oldLink)
+        }
+      }
+
+
+      </script>
   </body>
 </html>
