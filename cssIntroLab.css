@@ -1,7 +1,7 @@
 
 h1{
     color: #6600ffd4;
-    font-size: 67px;
+    font-size: 25px;
     font-family: 'Great Vibes', cursive;
     text-shadow: 4px 4px 4px hsla(37, 100%, 67%, 0.73);
     background-color: hsl(0, 0%, 100%);
@@ -32,7 +32,40 @@ ul{
     border-radius: 15px;
     color: blue;
     background: lightpink;
+    padding-left: 30px;
+
   }
+  
+  img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 16%;
+      width : 240px;
+      height: 200px;
+      border-block-end-style: double;
+      box-shadow: 9px 8px 10px 13px  #cc6161;;
+      
+  }
+  body{
+      font-family: sans-serif;
+      background:linear-gradient(90deg,
+       rgba(131,58,180,1) 0%, 
+       rgba(29,253,190,1) 50%, 
+       rgba(252,176,69,1) 100%);
+  }
+  h3 {
+      text-decoration: underline double lightcoral ; 
+  }
+  p{
+    padding-top: 20px;
+    padding-bottom: 20px;    
+  }
+  h2, h3, h4, h5, h6{
+      font-size: 20px;
+  }
+  
+
 
 
     
