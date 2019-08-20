@@ -1,15 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
-    let oldFile = document.querySelector("link")
-    let newFile = document.querySelector('link')
-  newFile.removeAttribute("rel", "stylesheet");
-  newFile.removeAttribute("type", "text/css")
-  newFile.removeAttribute("href", "intro2")
-  document.querySelector('head').replaceChild(newFile, oldFile)
-  link.addEventListener("click", () => {
-    
+   let button = document.querySelector("#button")
+   let oldFile = document.querySelector("link")
+  button.addEventListener("click", () => {
+   let newFile = document.createElement('link')
+   let currentFile = document.querySelector("link") 
+     if (currentFile === oldFile) {
+      document.querySelector('head').replaceChild(newFile, oldFile)
+     } else {
+       document.querySelector('head').replaceChild(oldFile, currentFile)
+     }
+   
     
   })
-})
+ })
 
 
 
