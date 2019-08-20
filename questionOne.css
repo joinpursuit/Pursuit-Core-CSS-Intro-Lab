@@ -1,0 +1,58 @@
+h1 {
+    color: pink;
+    /* font-family: 'Beth Ellen', cursive; */
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+
+ol {
+    font-weight: bold;
+}
+
+li {
+    justify-content: center;
+    display: flex;
+
+    border: 1px solid red;
+    border-radius: 10px;
+
+
+    color: blue;
+    background: pink;
+
+    padding: 30px;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+body {
+    font-family: "sans-serif", sans-serif;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 20px;
+
+}
+
+html {
+    background: rgb(58, 180, 143);
+    background: radial-gradient(circle, rgba(58, 180, 143, 1) 0%, rgba(29, 190, 253, 1) 50%, rgba(172, 252, 53, 0.7693452380952381) 80%, rgba(69, 252, 181, 0) 100%);
+}
+
+p {
+    font-size: 20 px;
+}
