@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti&display=swap');
+
+h1 {
+    font-family: 'Calligraffitti';
+    font-size: 25px;
+    text-shadow: 4px 4px 4px #aaa;
+    color: rgb(158, 98, 177)
+}
+
+h2, h3, h4, h5, h6 {
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+ol {
+    font-weight: 300;
+    padding-left: 30px;
+}
+/* RETURN BACK TO QUESTION 6 AND 7 */
+li {
+    text-align: center;
+    color: blue;
+    background-color: lightpink;
+} 
+  
+img {
+    text-align: center;
+    width: 170px;
+    height: 200px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h3 {
+    text-decoration-line: underline;
+}
+
+body {
+    background-color: #94bbe9;
+    background-image: radial-gradient(#eeaeca 25%, #94bbe9 75%, #c1b5da 100%);
+}
+
+/* Return to Question 12 */
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
