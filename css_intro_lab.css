@@ -24,6 +24,8 @@ li {
     text-align: center;
     color: blue;
     background-color: lightpink;
+    border: 1px inset red;
+    border-radius: 25%
 } 
   
 img {
