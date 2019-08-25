@@ -74,16 +74,16 @@
    button.addEventListener('click', () => {
       switch (styleToggle % 3) {
          case 0:
-            styleResets.disabled = undefined;
-            style1.disabled = 'disabled';
+            styleResets.href = './resets.css';
+            style1.href = '';
             break;
          case 1:
-            styleResets.disabled = 'disabled';
-            style1.disabled = 'disabled';
+            styleResets.href = '';
+            style1.href = './design.css';
             break;
          default:
-            styleResets.disabled = undefined;
-            style1.disabled = undefined;
+            styleResets.href = './resets.css';
+            style1.href = './design.css';
       }
       styleToggle += 1;
    } );
