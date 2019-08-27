@@ -63,7 +63,7 @@ Use the HTML below for the following questions:
 
     <form action="index.html" method="post">
       <input type="text" name="" value="">
-      <input type="submit" name="sumbit" value="submit">
+      <input type="submit" name="submit" value="submit">
     </form>
   </body>
 </html>

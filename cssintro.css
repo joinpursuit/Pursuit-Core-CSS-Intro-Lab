@@ -1,0 +1,43 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: lightpink;
+  font-size: 25px
+}
+h2, h3, h4, h5, h6 {
+  font-size: 20px
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding-left: 30px
+}
+ol {
+  font-weight: lighter;
+  text-align: center;
+  list-style-position: inside;
+  padding-left: 30px
+}
+li {
+  border: 1px solid red;
+  border-radius: 50px;
+  color: blue;
+  background-color: lightpink;
+}
+img {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px
+}
+body {
+  font-family: sans-serif;
+  background-image: radial-gradient(lavender, violet, purple);
+}
+h3 {
+  text-decoration: underline;
+}
+p {
+  padding-top: 20px;
+  padding-bottom: 20px
+}
