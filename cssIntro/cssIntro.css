@@ -1,10 +1,7 @@
 
 body, ul {
-  /* background-color: #d9f2f2; */
-  /* background: rgb(2,0,36); */
-  /* background: rgb(220,207,236); */
-  background: linear-gradient(90deg, rgba(220,207,236,1) 11%, rgba(135,218,218,0.9654236694677871) 37%,
-  rgba(190,226,226,1) 88%);
+  background: rgb(195,108,34);
+  background: linear-gradient(0deg, rgba(195,108,34,0.39119397759103647) 12%, rgba(253,169,45,0.8561799719887955) 68%);
   color: darkblue;
   font-family: 'Varela Round', sans-serif;
   font-size: 14px;
@@ -23,9 +20,9 @@ h3 {
 
 li {
   background-color: #ffe6ea;
-  border: 1px
+  border: 1px;
+  border-color: red;
   border-radius: 50px;
-  /* color: blue; */
   color: darkblue;
   font-family: 'Varela Round', sans-serif;
   font-size: 14px;
@@ -44,6 +41,10 @@ ol {
 ul {
   list-style: none;
   padding-left: 30px;
+}
+
+.libraryListItems {
+  font-weight: bolder;
 }
 
 #contact {
