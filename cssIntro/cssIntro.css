@@ -40,7 +40,7 @@ ol {
 }
 
 ol li {
-  font-weight: bolder;
+  font-weight: bolder; <!--This doesn't work in Chrome, but does in Safari... -->
 }
 
 ul {
@@ -58,7 +58,7 @@ ul {
   font-size: 25px;
 }
 
-#reset {
+#resetSheet {
   color: #25a7da;
   padding: 15px 15px 15px 15px;
 }
