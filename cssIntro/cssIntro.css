@@ -1,10 +1,10 @@
-
-body, ul {
+body {
   background: rgb(195,108,34);
-  background: linear-gradient(0deg, rgba(195,108,34,0.39119397759103647) 12%, rgba(253,169,45,0.8561799719887955) 68%);
-  color: darkblue;
+  background: linear-gradient(0deg, rgba(195,108,34,0.39119397759103647) 12%,
+              rgba(253,169,45,0.8561799719887955) 68%);
+  color: slategray;
   font-family: 'Varela Round', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
 
 }
@@ -19,10 +19,11 @@ h3 {
 }
 
 li {
-  background-color: #ffe6ea;
+  background-color: lightpink;
   border: 1px;
   border-color: red;
   border-radius: 50px;
+  border-style: solid;
   color: darkblue;
   font-family: 'Varela Round', sans-serif;
   font-size: 14px;
@@ -38,26 +39,22 @@ ol {
   padding-left: 30px;
 }
 
+ol li {
+  font-weight: bolder;
+}
+
 ul {
   list-style: none;
   padding-left: 30px;
 }
 
-.libraryListItems {
-  font-weight: bolder;
-}
-
-#contact {
-  text-decoration: none;
-}
-
 #owlyImg {
   height: 200px;
-  width: 260px;
+  width: auto;
 }
 
 #owlName {
-  color: #25a7da;
+  color: slateblue;
   font-size: 25px;
 }
 
