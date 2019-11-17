@@ -8,3 +8,14 @@ h1{
 ul{
     list-style: none;
 }
+
+ol {
+    font-weight: bold;
+}
+
+li {
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 25px;
+
+}
