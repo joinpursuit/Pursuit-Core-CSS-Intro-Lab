@@ -17,5 +17,17 @@ li {
     text-align: center;
     border: 1px solid red;
     border-radius: 25px;
+    color: blue;
+    background: lightpink; 
 
+}
+
+body {
+    font-family: sans-serif;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    align-content: center;
 }
