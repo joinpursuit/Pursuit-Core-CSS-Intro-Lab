@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>CSS Intro</title>
+   
     <link id="master" rel="stylesheet" href="./master.css">
     <link id="reset" rel="stylesheet" href="./reset.css">
-    <script src="./index.js"></script>
+
   </head>
   <body>
 ​
@@ -58,7 +59,26 @@
 ​
     <form action="index.html" method="post">
       <input type="text" name="" value="">
-      <input id="submit" type="submit" name="sumbit" value="submit">
+      <input type="submit" name="sumbit" value="submit">
     </form>
+    <form>    
+      <button>Delete</button>
+      <script>
+      let button = document.querySelector("button");
+          button.addEventListener("click", (reset) => {
+             reset.preventDefault();
+                      clearCss();
+                  }) 
+              function clearCss() {   
+                  
+                  let oldlink = document.querySelector("#stylesheet");
+               
+                  if (oldlink.href.endsWith("master.css")) {
+                  oldlink.href = "reset.css"
+                  } else {
+                  oldlink.href = "master.css"
+                  }
+              }
+      </script></form>
   </body>
 </html>
