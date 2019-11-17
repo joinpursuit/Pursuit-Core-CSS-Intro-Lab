@@ -126,6 +126,10 @@ All p tags should have 20 pixels of padding on the top and the bottom - not on t
 # Question 14
 
 All images should be 200 pixels tall.
+All images should be 200 pixels tall.
+All images should be 200 pixels tall.
+All images should be 200 pixels tall.
+All images should be 200 pixels tall.
 
 # Question 15
 

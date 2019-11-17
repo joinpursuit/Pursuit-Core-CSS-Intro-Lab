@@ -1,22 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
-    let remove = document.createElement("button")
-    remove.innerText = "Press to remove style"
-    document.body.appendChild(remove)
-    remove.addEventListener("click", () => {
-        let link = document.querySelector("#link")
-        document.querySelector("head").removeChild(link)
-    })
-    
-    let remove = document.createElement("button")
-    remove.innerText = "Press to remove style"
-    document.body.appendChild(remove)
-    
-    const replace = () => {
-        let link = document.querySelector("#link")
-        if(link){
-            remove.addEventListener("click", () => {
-            document.querySelector("head").removeChild(link)
-        }
-    })
+    let reset = document.createElement("button")
+    reset.innerText = "Press to reset style"
+    document.body.appendChild(reset)
 
-}
+    reset.addEventListener("click",()=>{
+        let style = document.querySelector("#style") 
+        if(style){
+            document.querySelector("head").removeChild(style)
+        }else{
+            let style = document.createElement("link")
+            style.rel="stylesheet"
+            style.id="style"
+            style.href="./master.css"
+            document.querySelector("head").appendChild(style)
+            }
+        })
+})
+
+    
