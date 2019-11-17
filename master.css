@@ -2,6 +2,9 @@
 
 body {
   font-family: "Cedarville Cursive";
+  font-family: sans-serif;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,27,1) 35%, rgba(0,212,255,1) 100%);
 }
 h1 {
     color: deepskyblue;
@@ -15,4 +18,23 @@ ol {
 li {
     text-align: center;
     list-style-position: inside;
+    border: 1px solid;
+    border-color: red;
+    border-radius: 25px;
+    color: blue;
+    background: lightpink;
+    padding-left: 30px
+    
+}
+img{
+    height: 200px;
+    align-self: auto;
+}
+h3{
+ text-decoration: underline;
+}
+p{
+    padding-top: 20x;
+    padding-bottom: 20px;
+
 }
