@@ -1,3 +1,28 @@
 h1 {
     font-family: 'Vibes', cursive;
+    color: green;
+}
+
+ul {
+    list-style-type:  none;
+}
+
+ol {
+    font-weight: bold;
+}
+
+li {
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: blue;
+    background: lightpink;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
