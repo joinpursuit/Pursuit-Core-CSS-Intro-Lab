@@ -1,4 +1,31 @@
+img {
+    display: block;
+    height: 185px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 h1 {
     font-family: cursive;
     color: pink;
+}
+
+ul, li {
+    list-style: none;
+
+}
+li {
+    text-align: center;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 25px;
+    color: blue;
+    background-color: lightblue;
+}
+
+ol {
+    font-weight: bold;
+    list-style-position: inside;
+    text-align: center;
+  
 }
