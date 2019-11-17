@@ -11,6 +11,8 @@ Use the HTML below for the following questions:
   <head>
     <meta charset="utf-8">
     <title>CSS Intro</title>
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./master.css">
   </head>
   <body>
 
