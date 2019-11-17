@@ -3,7 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>CSS Intro</title>
-    <link href="css lab.css" rel="stylesheet"/>
+    <link id="regular" href="./master.css" rel="stylesheet"/>
+    <link id="reset" href="./master.css" rel="stylesheet" disabled/>
+
+    <script>
+      const changeCss = () => {
+        let style = document.querySelector("#regular");
+        let reset = document.querySelector("#reset");
+        if(style.disabled) {
+          style.disabled = false;
+        } else {
+          style.disabled = true;
+        };
+      };
+    </script>
   </head>
   <body>
 
@@ -58,5 +71,7 @@
       <input type="text" name="" value="">
       <input type="submit" name="sumbit" value="submit">
     </form>
+
+    <button onclick="changeCss()">Reset the CSS</button>
   </body>
 </html>
