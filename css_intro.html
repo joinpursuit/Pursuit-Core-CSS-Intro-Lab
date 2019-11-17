@@ -3,7 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>CSS Intro</title>
-    <link rel="stylesheet" href="./css_intro.css">
+    <link id="ogLink" rel="stylesheet" href="./css_intro.css"/>
+    <link id="newLink" rel="altStylesheet" href="./css_button_remove.css"/>
+    <script>
+        let enableStyleSheet = (el) =>{
+            el.disabled() = false
+        }
+        let disabled
+    </script>
   </head>
   <body>
 
@@ -57,9 +64,9 @@
       <li> <a href="angellist.com">Angel list link</a> </li>
     </ul>
 
-    <button type="button" onclick= "alert('hello world')">Click here</button>
+    <button type="button" onclick="changeCss()">Reset</button>
 
-    <form action="index.html" method="post">
+    <form action="index.html" method="post"></form>
       <input type="text" name="" value="">
       <input type="submit" name="sumbit" value="submit">
     </form>
