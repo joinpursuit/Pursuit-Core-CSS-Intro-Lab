@@ -7,6 +7,7 @@
         @import url('https://fonts.googleapis.com/css?family=Vibes&display=swap');
     </style>
     <link rel="stylesheet" href="./master.css">
+    <script src="./CSSIntro.js"></script>
   </head>
   <body>
 
@@ -63,17 +64,7 @@
     </form>
 
     <footer>
-        <button onclick="clear()">Clear</button>
+        <button>Clear</button>
     </footer>
-    <script>
-        const clear = () => {
-            getCrrLink = document.querySelector('link');
-
-            newLink = document.createElement('link');
-            newLink.setAttribute("rel", "stylesheet");
-            newLink.setAttribute("href", "./blank.css");
-            document.querySelector("head").replaceChild(newLink, getCrrLink);
-        }
-    </script>
   </body>
 </html>
