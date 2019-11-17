@@ -1,11 +1,17 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(pink, turquoise) ;
+}
+
 img {
     display: block;
-    height: 185px;
+    height: 200px;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
 h1 {
+    font-size: 25px;
     font-family: cursive;
     color: pink;
 }
@@ -21,6 +27,7 @@ li {
     border-radius: 25px;
     color: blue;
     background-color: lightblue;
+    padding-left: 30px;
 }
 
 ol {
@@ -28,4 +35,13 @@ ol {
     list-style-position: inside;
     text-align: center;
   
+}
+
+h2, h3 {
+    font-size: 20px;
+    text-underline-position: auto;
+}
+p {
+    padding-left: 20px; 
+    padding-right: 20px;
 }
