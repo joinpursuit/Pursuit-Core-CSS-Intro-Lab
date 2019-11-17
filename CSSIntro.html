@@ -61,5 +61,19 @@
       <input type="text" name="" value="">
       <input type="submit" name="sumbit" value="submit">
     </form>
+
+    <footer>
+        <button onclick="clear()">Clear</button>
+    </footer>
+    <script>
+        const clear = () => {
+            getCrrLink = document.querySelector('link');
+
+            newLink = document.createElement('link');
+            newLink.setAttribute("rel", "stylesheet");
+            newLink.setAttribute("href", "./blank.css");
+            document.querySelector("head").replaceChild(newLink, getCrrLink);
+        }
+    </script>
   </body>
 </html>

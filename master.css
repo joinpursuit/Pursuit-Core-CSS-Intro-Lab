@@ -1,6 +1,7 @@
 h1 {
     font-family: 'Vibes', cursive;
     color: green;
+    font-size: 25px;
 }
 
 ul {
@@ -17,11 +18,12 @@ li {
     border-radius: 10px;
     color: blue;
     background: lightpink;
+    padding-left: 30px;
 }
 
 img {
-    width: 200px;
-    height: auto;
+    width: auto;
+    height: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -38,4 +40,13 @@ h3 {
 html {
 background: rgb(51,221,186);
 background: radial-gradient(circle, rgba(51,221,186,1) 11%, rgba(225,56,137,1) 36%, rgba(70,234,252,1) 100%);
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2, h3 {
+    font-size: 20px;
 }
