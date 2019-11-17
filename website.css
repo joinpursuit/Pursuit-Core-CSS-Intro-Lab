@@ -1,0 +1,40 @@
+h1{
+    font-family: 'Bebas Neue', cursive;
+    color: red;
+    font-size: 25px;
+}
+#websites{
+    list-style-type: none;
+}
+li{
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 25px;
+    color: blue;
+    background: lightpink;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 25%;
+    height: 200px;
+}
+
+html{
+    font-family: sans-serif;
+}
+h3{
+    text-decoration: underline;
+}
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.headers{
+    font-size: 20px;
+}
+ul{
+    padding-left: 30px;
+}
