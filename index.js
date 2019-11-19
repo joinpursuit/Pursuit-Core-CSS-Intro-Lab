@@ -5,18 +5,12 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.appendChild(button);
     button.addEventListener("click", () => {
         let link = document.querySelector("#cssLink");
-        if(link.href === "file:///Users/kevinwong/Desktop/Pursuit/Assignments/Unit%202%20-%20Labs/Pursuit-Core-CSS-Intro-Lab/master.css"){
-            link.href = "./clear.css"
+        if(link.disabled){
+            // link.href = "./clear.css";
+            link.disabled = false;
         } else {
-            link.href = "./master.css";
+            // link.href = "./master.css";
+            link.disabled = true;
         }
     })
 })
-
-// const clickEvent = () => {
-//     if(link.href === "./master.css"){
-//         link.href = "./clear.css";
-//     }else{
-//         link.href === "./master.css";
-//     }
-// }
