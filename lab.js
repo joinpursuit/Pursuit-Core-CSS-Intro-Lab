@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
         alt.setAttribute("type", "text/css")
         alt.setAttribute("href", "./alt.css")
         let parent = main.parentNode
-        parent.replaceChild(alt,main)
+        parent.replaceChild(alt, main)
 
     })   
 })
