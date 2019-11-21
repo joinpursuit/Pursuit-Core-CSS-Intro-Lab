@@ -92,7 +92,7 @@ Center all li items on the page.
 
 # Question 6
 
-Give your li's a 1px red boarder with curved corners.
+Give your li's a 1px red border with curved corners.
 
 # Question 7
 
