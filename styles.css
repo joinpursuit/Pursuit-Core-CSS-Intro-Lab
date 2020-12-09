@@ -1,5 +1,5 @@
 h1 {
-    font-family: 'fantasy';
+    font-family: 'Luminari';
     color: blue;
     font-size: 30px;
 }
@@ -17,7 +17,7 @@ li {
     border: 1px solid red;
     border-radius: 10px;
     color: blue;
-    background: lightpink;
+    background-color: lightpink;
     padding-left: 30px;
 }
 
@@ -38,10 +38,8 @@ h3 {
 }
 
 html {
-    background: rgb(159,193,201);
+    background-color: rgb(159,193,201);
     background: radial-gradient(circle, rgba(159,193,201,1) 9%, rgba(224,209,221,1) 52%, rgba(0,212,255,1) 100%);
-
-
 }
 
 p {

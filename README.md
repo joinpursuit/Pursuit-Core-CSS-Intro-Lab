@@ -22,21 +22,19 @@ This repo has an `about.html` file inside of it.  Add a CSS file that creates a 
 
 ## CSS changes:
 
-- Change the font of the name header to be `fantasy`
-- Change the font color of your name to blue.
+- Change the font of the name header to be Luminari and blue
 - Remove the bullet points from your unordered list of links.
-- Change the font weight in your ordered list.
+- Change the font weight in your ordered list to bold.
 - Center all li items on the page.
 - Give your li's a 1px red boarder with curved corners.
 - Change the font color of your li's to blue and the background color to a light pink.
-- Center the picture on the page.
-- Change all font to sans-serif.
+- All images should be 200 pixels tall
+- Change all font in the body to sans-serif.
 - Underline all h3's.
-- Give your page a background color. Then, make it a [gradient](https://cssgradient.io/)
 - All p tags should have 20 pixels of padding on the top and the bottom - not on the sides.
-- All images should be 200 pixels tall.
-- Header tags (h1, h2, etc.) should be closer in size to each other.  h1 should have a 25px font size and all other h tags to have a 20px font size.
+- h1 tags should have a 30px font size
 - Lists should have 30px of padding on the left.
+- Give your page a background color. Then, make it a [gradient](https://cssgradient.io/)
 
 # Bonus
 
