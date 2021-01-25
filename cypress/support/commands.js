@@ -26,4 +26,4 @@
 before(() => {
     cy.visit('./about.html')
 })
-  
+
