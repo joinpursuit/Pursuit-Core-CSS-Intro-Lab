@@ -7,7 +7,7 @@
 * Clone the forked repository
 * `cd` to the directory where you cloned it
 * `npm install` to install dependencies
-* `npm run cypress:open` to run the tests
+* `npm test` to open the cypress testing window
 
 > *Note*: Remember to `git add`, `git commit` and `git push` regularly
 
@@ -16,9 +16,9 @@
   * Make a pull request on github.`
   * Submit the link to your pull request on Canvas. 
 
-This repo has an `about.html` file inside of it.  Add a CSS file that creates a website that looks like the image below:
+This repo has an `about.html` file inside of it.  Add a CSS file that creates a website that looks like the image below.  Feel free to edit the HTML however you like!
 
-![styledpage](./styledPage.png)
+![styledpage](./newStyledPage.png)
 
 ## CSS changes:
 
