@@ -11,7 +11,7 @@ img {
 body{
     font-family: sans-serif;
     background-color: lightskyblue;
-    background-image: radial-gradient(lightblue,blue);
+    background-image: radial-gradient( blanchedalmond, rgb(160, 174, 250));
 }
 
 li{
