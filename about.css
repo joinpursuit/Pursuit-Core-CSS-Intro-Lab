@@ -1,0 +1,38 @@
+body {
+    background-image: radial-gradient(#4AD3F8, #FAB6C1, #4AD3F8);
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    font-family: Luminari;
+    color: blue;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+  }
+
+  h2, h3 {
+      text-decoration: underline;
+  }
+
+  ul {
+      list-style-type: none;
+  }
+
+  li {
+      text-align: center;
+      background-color: rgb(255, 182, 193);
+      border: 1px solid red;
+      border-radius: 10px;
+      color:rgb(0, 0, 255);
+      padding-left: 30px;
+  }
+
+  p{
+    padding: 20px 0px 20px 0px;  
+  }
