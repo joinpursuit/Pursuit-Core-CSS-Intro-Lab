@@ -1,0 +1,51 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(135, 231, 231);
+    background-image:
+    radial-gradient(
+      rgb(6, 226, 241,0.965),
+      #d9bfe7
+    );
+    
+}
+h1 {
+    font-size: 30px;
+    font-family: Luminari;
+    color: rgb(0,0,255);
+
+}
+h3{
+    text-decoration-line: underline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol{
+    font-weight: 700;
+}
+
+li{
+    text-align: center;
+    border: 1px solid rgb(255,0,0);
+    border-radius: 10px;
+    padding-left: 30px;
+    color: rgb(0,0,255);
+    background-color: rgb(255, 182, 193);
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+img {
+    height: 200px;
+    align-items: center;
+    
+}
+
+#images {
+    text-align: center;
+}
