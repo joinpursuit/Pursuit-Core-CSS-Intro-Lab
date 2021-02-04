@@ -10,6 +10,8 @@ img {
 
 body{
     font-family: sans-serif;
+    background-color: lightskyblue;
+    background-image: radial-gradient(lightblue,blue);
 }
 
 li{
