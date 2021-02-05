@@ -1,0 +1,51 @@
+h1 {
+    font-family: "Luminari";
+    color: blue;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol {
+    font-weight: 700;
+}
+
+li {
+    text-align: center;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    color: rgb(0, 0, 255);
+    background-color: rgb(255, 182, 193);
+    padding-left: 30px;
+}
+
+img {
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: aqua;
+    background-image: radial-gradient(circle, rgb(178, 255, 255) 10%, white 55%, aqua 80%);
+}
+
+h3 {
+    text-decoration-line: underline;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+button {
+    font-size: 25px;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 125);
+}
