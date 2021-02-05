@@ -1,0 +1,60 @@
+body {
+    background: rgb(65,60,161);
+    background: linear-gradient(90deg, rgba(65,60,161,0.9668242296918768) 0%, rgba(221,74,200,1) 35%, rgba(0,241,255,1) 100%);
+}
+
+h1 {
+    font-family: sans-serif;
+    /* font-family: 'Vibes', cursive; */
+    color: white;
+    font-size: 25px;
+}
+
+#refer { 
+    list-style: none;
+}
+
+ol {
+    font-weight: 800;
+    list-style-position: inside;
+    padding-left: 30px;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+li {
+    color:blue;
+    background: turquoise;
+    /* text-align: center; */
+    list-style-position: inside;
+    border: 1px solid red;
+    border-radius: 25px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+h3 {
+    text-decoration: underline
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.heading {
+    font-size: 20px;
+}
+
