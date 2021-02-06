@@ -1,0 +1,58 @@
+h1 {
+  font-family: "Luminari";
+  color: blue;
+  font-size: 30px;
+
+}
+
+ul {
+  list-style: none;
+}
+
+ol {
+  font-weight: bold;
+}
+
+li {
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 10px;
+  background: lightpink;
+  color: blue;
+  padding-left: 30px;
+}
+
+img {
+    height: 200px;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+
+}
+
+body {
+    font-family: sans-serif;
+    background: radial-gradient(pink,#19a8e6)
+}
+
+h3 {
+    text-decoration: underline;
+}
+p {
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.custom-button,
+.custom-button:visited {
+      display: inline-block;
+      padding: 5px 10px;
+      border: 2px solid purple;
+      background-color: pink;
+      text-decoration: inherit;
+}
+
+.custom-button:hover {
+      background: #000;
+      color: orange;
+}
