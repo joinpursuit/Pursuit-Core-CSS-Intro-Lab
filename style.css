@@ -1,6 +1,8 @@
 h1 {
-    font-family: "Luminari";
     color: blue;
+    font: 30px "Luminari";
+    /* font-family: "Luminari"; */
+    /* font-size: 30px; */
 }
 
 ol {
@@ -13,6 +15,7 @@ li {
     border-radius: 10px;
     color: blue;
     background-color: lightpink;
+    padding-left: 30px;
 }
 
 img {
@@ -26,3 +29,11 @@ body { /*why didn't the h1 change? */
 h3 {
     text-decoration: underline;
 }
+
+p {
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    padding: 20px 0px 20px 0px;
+}
+
+
