@@ -22,3 +22,7 @@ img {
 body { /*why didn't the h1 change? */
     font-family: sans-serif;
 }
+
+h3 {
+    text-decoration: underline;
+}
