@@ -1,12 +1,19 @@
 h1 {
-    font-family: 'Luminari';
-    color: blue;
+  font-family: "Luminari";
+  color: blue;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
 ol {
-    font-weight: bold;
+  font-weight: bold;
+}
+li {
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 10px;
+  background: lightpink;
+  color: blue;
 }
