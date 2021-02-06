@@ -10,10 +10,23 @@ ul {
 ol {
   font-weight: bold;
 }
+
 li {
   text-align: center;
   border: 1px solid red;
   border-radius: 10px;
   background: lightpink;
   color: blue;
+}
+
+img {
+    height: 200px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h3 {
+    text-decoration: underline;
 }
