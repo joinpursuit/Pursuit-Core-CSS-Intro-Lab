@@ -8,15 +8,11 @@
   <script>
     function toggleStyles() {
       let styleSheet = document.getElementsByTagName('link')[0];
-
-      // Change the value of href attribute  
-      // to change the css sheet. 
       if (styleSheet.getAttribute('href') == './aboutStyling.css') {
         styleSheet.setAttribute('href', './reset.css');
-      } else if  (styleSheet.getAttribute('href') == './reset.css') {
+      } else {
         styleSheet.setAttribute('href', './aboutStyling.css');
       }
-
     }
   </script>
 </head>
