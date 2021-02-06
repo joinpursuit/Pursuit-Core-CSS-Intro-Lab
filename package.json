@@ -18,5 +18,8 @@
   "homepage": "https://github.com/joinpursuit/Pursuit-Core-CSS-Intro-Lab#readme",
   "devDependencies": {
     "cypress": "^6.1.0"
+  },
+  "dependencies": {
+    "code": "^5.2.4"
   }
 }
