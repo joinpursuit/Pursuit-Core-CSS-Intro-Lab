@@ -42,3 +42,17 @@ p {
     padding-top:20px;
     padding-bottom: 20px;
 }
+
+.custom-button,
+.custom-button:visited {
+      display: inline-block;
+      padding: 5px 10px;
+      border: 2px solid purple;
+      background-color: pink;
+      text-decoration: inherit;
+}
+
+.custom-button:hover {
+      background: #000;
+      color: orange;
+}
