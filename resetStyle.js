@@ -9,5 +9,4 @@ function changeCSS(cssFile, cssLinkIndex) {
         newlink.setAttribute("href", './reset.css');
     }
     document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
-    console.log('help');
 }
