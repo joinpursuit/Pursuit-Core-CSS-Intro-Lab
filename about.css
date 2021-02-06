@@ -1,0 +1,46 @@
+/* 
+All p tags should have 20 pixels of padding on the top and the bottom - not on the sides.
+h1 tags should have a 30px font size
+Lists should have 30px of padding on the left. */
+
+h1 {
+font-family: Luminari;
+color: blue;
+font-size: 30px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ol{
+  font-weight: bold;  
+}
+
+li{
+    text-align: center;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(255, 182, 193);
+    color: blue;
+    padding-left: 30px;
+}
+
+img{
+    height: 200px
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
