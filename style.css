@@ -43,5 +43,17 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
+.right {
+    display: block;
+    margin-right: auto;
+}
+
+.isHidden {
+    visibility: hidden;
+}
+
+.isVisible {
+    visibility: visible;
+}
