@@ -34,7 +34,6 @@ This repo has an `about.html` file inside of it.  Add a CSS file that creates a 
 - All p tags should have 20 pixels of padding on the top and the bottom - not on the sides.
 - h1 tags should have a 30px font size
 - Lists should have 30px of padding on the left.
-
 # Bonus
 
 Add a button that removes all styles entirely.  Clicking the button again should replace them.
