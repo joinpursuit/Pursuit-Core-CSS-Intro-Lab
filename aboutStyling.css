@@ -1,0 +1,16 @@
+h1 {
+    color:blue;
+    font-family: Luminari;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol {
+    font-weight: 700;
+}
+
+li {
+    text-align: center;
+}
