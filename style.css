@@ -18,3 +18,7 @@ li {
 img {
         height: 200px;
 }
+
+body { /*why didn't the h1 change? */
+    font-family: sans-serif;
+}
