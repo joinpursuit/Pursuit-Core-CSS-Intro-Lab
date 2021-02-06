@@ -6,3 +6,7 @@ h1 {
 ol {
     font-weight: bold;
 }
+
+li {
+    text-align: center;
+}
