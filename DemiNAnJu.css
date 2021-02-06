@@ -15,9 +15,20 @@ li {
     text-align: center;
     color: blue;
     background-color: rgba(255, 182, 193);
+    border: 1px solid rgba(255, 0, 0);
+    border-radius: 10px;
 }
 
 img {
     height: 200px;
 }
+
+body{
+    font-family: "sans-serif";
+}
+
+h3{
+    text-decoration-line: underline;
+}
+
 
