@@ -10,3 +10,14 @@ ul {
 ol{
     font-weight: bold
 }
+
+li {
+    text-align: center;
+    color: blue;
+    background-color: rgba(255, 182, 193);
+}
+
+img {
+    height: 200px;
+}
+
