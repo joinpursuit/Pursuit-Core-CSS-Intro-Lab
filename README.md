@@ -18,7 +18,7 @@
 
 This repo has an `about.html` file inside of it.  Add a CSS file that creates a website that looks like the image below.  Feel free to edit the HTML however you like!
 
-![styledpage](./newStyledPage.png)
+![styledpage](./My_Personal_Website.png)
 
 ## CSS changes:
 
