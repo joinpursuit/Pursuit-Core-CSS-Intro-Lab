@@ -1,4 +1,5 @@
 function changeCSS(cssFile, cssLinkIndex) {
+    let testVar = 0;
     let oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
     let newlink = document.createElement("link");
     newlink.setAttribute("rel", "stylesheet");
