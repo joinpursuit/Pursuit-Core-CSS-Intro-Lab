@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>CSS Intro</title>
+    <link rel="stylesheet" href="./reset.css"/>
+    <link rel="stylesheet" href="./about.css">
+
   </head>
   <body>
 
@@ -55,7 +58,13 @@
 
     <form action="index.html" method="post">
       <input type="text" name="" value="">
-      <input type="submit" name="sumbit" value="submit">
+      <input type="submit" name="sumbit" value="submit" onclick="setStyleSheet('reset.css')" href="./reset.css">
     </form>
+
+    <!-- <a onclick="setStyleSheet('stylesheet1.css')" href="#">Style 1</a>
+    <a onclick="setStyleSheet('stylesheet2.css')" href="#">Style 2</a> -->
+
+    <!-- <input type="button" onclick="alert('Hello World!')" value="Click Me!"> -->
+
   </body>
 </html>
