@@ -1,6 +1,7 @@
 h1 {
     color: rgb(0, 0, 255);
     font-family: 'Luminari';
+    font-size: 30px;
 }
 
 ul {
@@ -17,4 +18,30 @@ li {
     border-radius: 10px;
     color: rgb(0, 0, 255);
     background-color: rgb(255, 182, 193);
+    padding-left: 30px;
 }
+
+img {
+  height: 200px;  
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(106, 215, 235); 
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
