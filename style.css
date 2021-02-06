@@ -2,3 +2,7 @@ h1 {
     font-family: "Luminari";
     color: blue;
 }
+
+ol {
+    font-weight: bold;
+}
