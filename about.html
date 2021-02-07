@@ -1,38 +1,55 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  
   <head>
-    <meta charset="utf-8">
-    <title>CSS Intro</title>
-  </head>
-  <body>
 
-    <h1>Your Name Here</h1>
+      <meta charset="utf-8">
+      <title>CSS Intro</title>
+
+      <link id="page" type="text/css" rel="stylesheet" href="./about.css">
+      
+      <script type="text/javascript">
+        function switchSS(){
+          let x =document.getElementById("page").getAttribute("href");
+          if(x === 'about.css'){
+            document.getElementById("page").setAttribute("href", "reset.css")
+          }else{
+            document.getElementById("page").setAttribute("href", "about.css")
+          }
+        }
+      </script>
+
+  </head>
+
+  <body>
+    <h1>Hafiz Ali</h1>
+    
     <div>
       <p>This is a bunch of information about myself. I'm from here and there and discovered my
       love of programming when this happend. When I'm not working I'm busy doing this and that.
-    </p>
+      </p>
     </div>
 
-    <img src="https://www.breakthrough-pt.com/wp-content/uploads/2014/11/female-default-profile-photo.png" alt="" >
-
+    <img src="./Pursuit 7.0 - Hafiz Ali.jpg" class="center" alt="">
+    <br><br>
+    <button onclick="switchSS()" style="display: block; margin: 0px auto 0px auto;">Change Style Sheet</button>
+    <br><br>
     <div >
       <h3>Here are some of my Skills!</h3>
       <ul>
         <h3>Languages</h3>
-        <li>JavaScript</li>
-        <li>SQL</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
-
+        <li><a href="#" >JavaScript</a></li>
+        <li><a href="#" >SQL</a></li>
+        <li><a href="#" >HTML5</a></li>
+        <li><a href="#" >CSS3</a></li>
       </ul>
 
-      <ol>
+      <ol style="font-weight: bold;">
         <h3>Libraries</h3>
-        <li>React</li>
-        <li>PostgreSQL</li>
-        <li>Node</li>
-        <li>Bootstrap</li>
-
+        <li><a href="#" >React</a></li>
+        <li><a href="#" >PostgreSQL</a></li>
+        <li><a href="#" >Node</a></li>
+        <li><a href="#" >Bootstrap</a></li>
       </ol>
     </div>
 
@@ -57,5 +74,6 @@
       <input type="text" name="" value="">
       <input type="submit" name="sumbit" value="submit">
     </form>
+
   </body>
 </html>
