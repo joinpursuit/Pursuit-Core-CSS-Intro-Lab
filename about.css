@@ -1,0 +1,65 @@
+/*- Change the font of the name header to be Luminari and blue*/
+h1 {
+    font-family: Luminari;
+    color: blue;
+}
+
+/*- Remove the bullet points from your unordered list of links.*/
+ul {
+    list-style-type: none;
+}
+
+/*- Change the font weight in your ordered list to bold.*/
+ol {
+    font-weight: 700;
+}
+
+/*- Center all li items on the page.*/
+li {
+    text-align: center;
+}
+
+/*- Give your li's a 1px red boarder with curved corners.*/
+li {
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+/*- Change the font color of your li's to blue and the background color to a light pink.*/
+li {
+    color: rgb(0,0,255);
+    background-color: rgb(255, 182, 193);
+}
+
+/*- All images should be 200 pixels tall*/
+img {
+    height: 200px;
+}
+
+/*- Change all font in the body to sans-serif.*/
+body {
+    font-family: sans-serif;
+}
+
+/*- Underline all h3's.*/
+h3 {
+    text-decoration: underline;
+}
+
+/*- All p tags should have 20 pixels of padding on the top and the bottom - not on the sides.*/
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+/*- h1 tags should have a 30px font size*/
+h1 {
+    font-size: 30px;
+
+}
+
+/*- Lists should have 30px of padding on the left.*/
+li {
+    padding-left: 30px;
+}
