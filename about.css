@@ -1,0 +1,56 @@
+body {
+    height: 150vh;
+    margin: 0;
+    background: radial-gradient( #6dd5ed, pink, #6dd5ed );
+    background-repeat: repeat;
+    text-align: center;  
+}
+
+h1 {
+    font-family:'Luminari';
+    color: rgb(0, 0, 255);
+    font-size: 30px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+
+ol {
+    font-weight: bold;
+    
+}
+
+li {
+    color: rgb(0, 0, 255);
+    background-color: lightpink;
+    text-align: center;
+    border: 1px solid rgb(255, 0, 0);
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+
+img {
+    height: 200px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+ 
