@@ -1,0 +1,55 @@
+h1 {
+    color: blue;
+    font-family: Luminari;
+    font-size: 30px;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ol{
+    font-weight: bold; 
+}
+
+li{
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 10px; 
+    padding-left: 30px;
+    /* all li's have a 1px red border w/ curved corners)
+    lists should have 30 px of padding on the left
+    */
+    color: blue; 
+    background-color: rgb(255, 182, 193);
+}
+
+body{
+    background-color:rgb(173,216,230);
+    font-family: sans-serif; 
+    /* make all the font in the body sans-serif*/
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* all p tags should ahve 20 pixels of padding on the top and the bottom 
+    - not on the sides*/
+}
+
+img{
+    height: 200px;
+}
+
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*next: get the background color of the page to match the example, figure out what that circle thing is */
