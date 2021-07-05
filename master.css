@@ -1,0 +1,58 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: red;
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    font-weight: 600;
+}
+
+li {
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 40%;
+    color: blue;
+    background-color: lightpink;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    position: relative; 
+    left: 50px;
+    /* flex-direction: column;
+    justify-content: center; */
+
+}
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2, h3, h4, h5, h6 {
+    font-size: 20px;
+}
+
+ul, ol {
+    padding-left: 30px;
+}
+
