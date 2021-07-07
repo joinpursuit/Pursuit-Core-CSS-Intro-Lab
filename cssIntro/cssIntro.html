@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Owly's CSS Intro</title>
+
+    <link href="cssIntro.css" rel="stylesheet" id="originalStyle">
+    <link href="cssIntro_blank.css" rel="alternate stylesheet" id="alternateStyle">
+
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap"
+          rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div>
+
+      <h1 id="owlName">Programmer Owly</h1>
+
+    </div>
+
+    <section>
+
+        <img src="../owly.jpg" alt="owl the barn owl" id="owlyImg">
+
+        <p>I'm a barn owl and got into programming as I think it's a good thing to do when you're
+        a nocturnal animal. I also hope to work remotely so I can keep flying where I want.
+        </p>
+
+    </section>
+
+    <main>
+
+      <h3>Here are some of my skills:</h3>
+
+      <ul>
+
+        <h3>Languages</h3>
+
+          <li>JavaScript</li>
+          <li>SQL</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Birdcalls</li>
+
+      </ul>
+
+      <ol>
+
+        <h3>Libraries</h3>
+
+          <li>React</li>
+          <li>PostgreSQL</li>
+          <li>Node</li>
+          <li>Bootstrap</li>
+
+      </ol>
+
+    </main>
+
+    <article>
+
+      <h3>Hardest Bug So Far</h3>
+
+      <p>My hardest bug I ever came across was this infinite loop I couldn't escape. </p>
+
+      <p>I decided to go hunt for mice though and once I got back I came up with a solution that worked!
+         I'm not sure why I hadn't thought of it sooner.
+      </p>
+
+    </article>
+
+    <footer>
+
+      <h3 id="contact">Contact Me Here</h3>
+
+      <p>
+       Email me at: <a href="mailto:barnowl@pursuit.org" target="_top">barnowl@pursuit.org</a>
+     </p>
+
+      <form action="index.html" method="post">
+
+        <input type="text" name="" value="">
+        <input type="submit" name="submit" value="Submit" id="submitHere">
+
+      </form>
+
+      <ul>
+
+        <li> <a href="github.com">Github link</a> </li>
+        <li> <a href="linkedin.com">LinkedIn link</a> </li>
+        <li> <a href="angellist.com">AngelList link</a> </li>
+
+      </ul>
+
+      <input type="button" value="Reset If You Really Want To" id="resetSheet" onclick="switchStyle()">
+
+    </footer>
+
+    <script>
+      function switchStyle() {
+
+        let currentStyle = document.getElementById("originalStyle");
+
+        currentStyle.setAttribute("href", "cssIntro_blank");
+
+
+      }
+    </script>
+
+  </body>
+
+</html>
