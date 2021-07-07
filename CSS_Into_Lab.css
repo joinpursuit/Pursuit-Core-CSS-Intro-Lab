@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap);
+/* font-family: 'Permanent Marker', cursive; */
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    color: red;
+}
+
+ul {
+    list-style-type: circle;
+}
+ol {
+    font-weight: 600;
+    list-style-type: decimal;
+}
+.li-links {
+    list-style-type: none;
+}
+
+li  {
+    list-style-position: inside;
+    text-align:  center;
+    border-width: 1px;
+    border-color: red;
+    color: blue;
+    background-color: lightpink;
+    padding-left: 30px;
+}
+
+img {
+    height: 200px;
+    width: auto;
+    border-radius: 15%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    background: linear-gradient(131deg, rgba(13,218,118,1) 0%, rgba(9,121,62,1) 35%, rgba(58,114,212,1) 100%);
+}
+
+h3 {
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.submit {
+    margin: 10px;
+    /* border-width: 1px; */
+    border-style: inset;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: rgb(224, 219, 219)
+}
+
+h2, h3, h4, h5, h6 {
+    font-size: 20px;
+}
