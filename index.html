@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link id='stylesheet' rel="stylesheet" href="./index.css">
+        <title>CSS Intro</title>
+        <script>
+            let css = document.querySelector('#stylesheet').href
+            const nostyle =()=>{
+                document.querySelector('#stylesheet').href === css ?
+                    document.querySelector('#stylesheet').href = '' :
+                    document.querySelector('#stylesheet').href = css;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Michael D Amparo</h1>
+        <div>
+            <p>
+                I honestly don't want to write too much right now. I think it'll take to much space.
+                This also seems like a lot of work but, now that I think about it I think I've written enough.
+            </p>
+        </div>
+        <img src="https://athletics.baruch.cuny.edu/images/2015/9/22/MichaelDAmparo2015.jpg" alt="" >
+        <div >
+            <h3>Here are some of my Skills!</h3>
+            <ul>
+                <h3>Languages</h3>
+                <li>JavaScript-- yea i think so</li>
+                <li>SQL-- Have used it in the past but dont remember anything</li>
+                <li>HTML5-- Im getting there</li>
+                <li>CSS3-- Work in progress</li>
+                <li>English-- Duh</li>
+                <li>Spanish-- Muy bien</li>
+            </ul>
+            <ol>
+                <h3>Librarys-- I dont understand ¯\_(ツ)_/¯</h3>
+                <li>React-- My mentor told me about this</li>
+                <li>PostgreSQL-- Sounds complicated</li>
+                <li>Node-- I'm pretty sure I've used this</li>
+                <li>Bootstrap-- Sounds hardcore</li>
+            </ol>
+        </div>
+        <div>
+            <h3>Hardest Bug So Far</h3>
+            <p>I honestly cant think of it but syntex is a pain in the...</p>
+            <p>I came up with a totally sick solution by asking GOOGLE :)</p>
+        </div>
+        <h2>Contact Me</h2>
+        <div>
+            Email me at: <a href="mailto:michaelamparo@pursuit.org" target="_top">michaelamparo@pursuit.org</a>
+        </div>
+        <ul class="unordered_links">
+            <li> <a href="https://www.github.com/MikePursuit">github link</a> </li>
+            <li> <a href="https://www.linkedin.com/in/michaeldamparo">LinkedIn link</a> </li>
+            <li> <a href="https://www.google.com/search?q=Michael+D+Amparo&oq=Michael+D+Amparo&aqs=chrome..69i57j69i59j69i60l3.2753j1j4&sourceid=chrome&ie=UTF-8">Google Me</a> </li>
+            <li> <a href="https://www.angellist.com/404/MichaelDoesntHaveThis">Angel list link</a> </li>
+        </ul>
+        <form action="index.html" method="post">
+            <input type="text" name="" value="">
+            <input type="submit" name="sumbit" value="submit">
+        </form>
+        <button 
+            onclick="nostyle()"
+        >
+            No Style
+        </button>
+    </body>
+</html>
