@@ -1,0 +1,44 @@
+body {
+    background: rgb(43,27,57);
+    background: linear-gradient(90deg, rgba(43,27,57,1) 0%, rgba(108,87,145,1) 35%, rgba(180,121,255,1) 100%);
+    color: white;
+    font-family: sans-serif;
+}
+h1 {
+    font-family: Amita;
+    color: rgb(180, 157, 218);
+    font-size: 25px;
+}
+h3 {
+    text-decoration: underline;
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+}
+ol {
+    font-weight: bold;
+}
+li {
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: blue;
+    background: lightpink;
+    padding-left: 30px;
+}
+#profile {
+    width: 200px;
+    height: auto;
+    align-content: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
