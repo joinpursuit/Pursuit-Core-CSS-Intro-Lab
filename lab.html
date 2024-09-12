@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link id="stylesheet" rel="stylesheet" href="lab.css">
+    <meta charset="utf-8">
+    <title>Peter Fiorentino</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <h1>Peter Fiorentino</h1>
+    <div>
+      <p>I am from Staten Island. I love to write songs. When I leave Pursuit I want to work for Ableton, working on the technology side of music.
+    </p>
+    </div>
+
+    <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/16195442_1379707448709134_1649181788578759748_n.jpg?_nc_cat=101&_nc_oc=AQmLe5PNtKoEvCFPu2LrTkbF37BDS9uyKHKkeDI6vkCTXq8KW5YV8-P8xkk31uYrtAY&_nc_ht=scontent-lga3-1.xx&oh=dc9d5d169ccde09c5970101964df10b7&oe=5E0E484F" alt="me">
+
+    <div >
+      <h3>Here are some of my Skills!</h3>
+      <ul>
+        <h3>Languages</h3>
+        <li>JavaScript</li>
+        <li>SQL</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+
+      </ul>
+
+      <ol>
+        <h3>Librarys</h3>
+        <li>React</li>
+        <li>PostgreSQL</li>
+        <li>Node</li>
+        <li>Bootstrap</li>
+
+      </ol>
+
+      <ul>
+          <h3>Instruments</h3>
+          <li>Piano</li>
+          <li>Bass</li>
+          <li>Saxophone</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Hardest Bug So Far</h3>
+      <p>Trying to find the second smallest number in an array. I hate that question. </p>
+      <p>I found the solution with loops inside of loops and multiple variables. </p>
+    </div>
+
+    <h2>Contact Me</h2>
+    <div>
+     Email me <a href="mailto:peterfiorentino@pursuit.org" target="_top">here</a>
+    </div>
+
+    <ul>
+      <li> <a href="https://github.com/PeterFiorentino">github</a> </li>
+      <li> <a href="https://www.linkedin.com/in/peter-fiorentino-762928162/">LinkedIn</a> </li>
+    </ul>
+
+    <form action="index.html" method="post">
+      <input type="text" name="" value="">
+      <input type="submit" name="sumbit" value="submit">
+    </form>
+
+    <form>
+        <button>DELETE IT ALL</button>
+        <script> 
+                let button = document.querySelector("button");
+                button.addEventListener("click", (e) => {
+                    e.preventDefault();
+                    peter();
+                }) 
+
+            function peter() {   
+                
+                var oldlink = document.querySelector("#stylesheet");
+             
+                if (oldlink.href.endsWith("b.css")) {
+                oldlink.href = "lab2.css"
+                } else {
+                oldlink.href = "lab.css"
+
+                }
+            }
+              
+        </script>
+    </form>
+  </body>
+</html>
