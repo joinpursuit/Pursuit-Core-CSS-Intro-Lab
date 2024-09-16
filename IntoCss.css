@@ -1,0 +1,45 @@
+h1{
+    font-size: 25px;
+    color: blue;
+}
+
+h3{
+    font-size: 20px;
+    text-decoration: underline;  
+}
+
+ul{
+    list-style: none;
+    padding-left: 30px;
+}
+
+ol{
+    padding-left: 30px;
+    font-weight: 600;
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+li{
+    text-align: center;
+    border: 1px;
+    border-style: ridge;
+    /* border-color: red; */
+    border-radius: 25px;
+    color: blue;
+    background: pink;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+body{
+    font-family: sans-serif;
+    background: linear-gradient(90deg,red,blue,green,gray)
+}
