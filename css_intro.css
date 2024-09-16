@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Emblema+One&display=swap');
+h1 {
+    font-family: 'Emblema One', cursive;
+    color: darkmagenta;
+    font-size: 25px;
+}
+ul {
+    list-style-type: none;
+}
+ol {
+    font-weight: 900;
+}
+li {
+    text-align: center;
+    border: 1px dotted red;
+    border-radius: 15px;
+    color: blue;
+    background: lightpink;
+    padding-left: 30px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 200px;
+}
+body {
+    font-family: sans-serif;    
+    background: linear-gradient(219deg, rgba(23,238,237,1) 8%, rgba(238,227,23,1) 57%, rgba(20,228,213,1) 82%);
+}
+
+h3 {
+    text-decoration: underline;
+}
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h2, h4, h5, h6 {
+    font-size: 20px;
+}
